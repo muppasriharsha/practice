@@ -1,0 +1,17 @@
+.grid-container {
+    grid-area:flex;
+    display: grid;
+    grid-template-areas: main;
+    grid-gap: 20px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    border-radius: 20rem;
+    text-align: center;
+    font-size: 30px;
+    gap: 50px;
+  }
